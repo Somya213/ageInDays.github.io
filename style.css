@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #3dfcd3;
+}
+.contianer{
+    width: 70%;
+    height: auto;
+    background: #161616;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contianer h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: #3dfcd3;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.wrapper div button{
+    padding: 15px 40px;
+    margin: .3rem;
+    border: none;
+}
+.wrapper .primary{
+    background: #3dfcd3;
+    border: none;
+    font-size: 1rem;
+}
+.wrapper .primary:hover{
+    background: none;
+    border: 2px solid #3dfcd3;
+    color: #3dfcd3;
+}
+.wrapper .danger{
+    background: none;
+    border: 2px solid #3dfcd3;
+    color: #3dfcd3;
+    font-size: 1rem;
+}
+.wrapper .danger:hover{
+    background: #3dfcd3;
+    border: none;
+    color: #000;
+}
+#ageInDays{
+    font-size: 2rem;
+}
